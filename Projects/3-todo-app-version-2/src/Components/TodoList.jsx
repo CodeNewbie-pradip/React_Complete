@@ -2,7 +2,7 @@ import React from 'react';
 import './TodoList.css';
 import TodoItem from './TodoItem';
 
-const TodoList = ({todoItems}) => {
+const TodoList = ({todoItems, onDeleteClick}) => {
   return (
     <div>
       <div className="item-container">
@@ -10,7 +10,8 @@ const TodoList = ({todoItems}) => {
         <TodoItem 
           key={item.name}
           todoName={item.name}
-          todoDate={item.dueDate}>
+          todoDate={item.dueDate}
+          onDeleteClick={onDeleteClick}>
           </TodoItem>
         ))}
         </div>
