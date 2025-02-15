@@ -1,0 +1,17 @@
+.kg-item{
+    background-color: rgb(244, 245, 241);
+}
+
+.kg-span{
+    font-weight: 500;
+
+}
+
+.food-heading{
+    font-weight: 500;
+    background-color: #bbc03f;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
