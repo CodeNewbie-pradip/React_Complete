@@ -8,5 +8,25 @@
 
 .sidebar{
   min-height: 800px;
-  
+}
+
+.post-card{
+  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-width: 30rem;
+}
+
+.hashtag{
+  margin: 0px 5px;
+}
+
+.reactions{
+  margin-top: 15px;
+}
+
+.create-post{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
 }
